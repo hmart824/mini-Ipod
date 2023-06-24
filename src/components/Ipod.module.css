@@ -1,0 +1,32 @@
+.container {
+  height: 26em;
+  width: 15rem;
+  position: relative;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #6d6d6d;
+  border-radius: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 2.4px 2.4px 3.2px;
+}
+.screen {
+  width: 97%;
+  height: 54%;
+  position: relative;
+  background-color: #979797;
+  background: url("bg.jfif") no-repeat center center/cover;
+  margin: auto;
+  border-radius: 0.4rem;
+}
+.controll {
+  width: 100%;
+  height: 44%;
+  /* border: 2px solid blue; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  border-radius: 0.4rem;
+}
